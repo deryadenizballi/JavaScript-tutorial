@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+button {
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background-color: rebeccapurple;
+  color: white;
+  transition: 400ms all;
+  z-index: 999;
+}
+
+button.active {
+  right: 9%;
+  transition: 500ms all;
+}
+
+nav {
+  background-color: rebeccapurple;
+  height: 100vh;
+  padding: 5rem 3rem 3rem;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  transition: 300ms all;
+  right: -50%;
+}
+
+nav.active{
+  right: 0;
+  transition: 480ms all;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem 0;
+  display: block;
+}
