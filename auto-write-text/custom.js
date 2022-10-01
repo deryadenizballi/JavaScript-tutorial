@@ -1,6 +1,6 @@
 
 
-const deneme=document.querySelector('.deneme');
+const deneme=document.querySelector('p');
 console.log(deneme);
 let text="Derya Deniz Balli";
 
